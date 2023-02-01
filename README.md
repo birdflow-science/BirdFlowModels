@@ -1,5 +1,9 @@
 # BirdFlowModels
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/birdflow-science/BirdFlowModels/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/birdflow-science/BirdFlowModels/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 This is a "Data" R package that contains a fitted BirdFlow model for use with 
 the BirdFlowR package.  
 
