@@ -9,13 +9,14 @@ Description: This is a "Data" R package that contains a fitted BirdFlow
     model for use with the BirdFlowR package.  The model is  
     currently a prototype,  intended for testing and demonstrating the code. 
     It has not been vetted for scientific use. 
-License: `use_mit_license()`
+License: MIT + file LICENSE
 LazyData: true
+LazyDataCompression: gzip
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
 Depends: 
     BirdFlowR,
-    R (>= 2.10)
+    R (>= 3.5)
 Remotes:
   birdflow-science/BirdFlowR

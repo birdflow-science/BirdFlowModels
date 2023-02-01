@@ -26,6 +26,6 @@
 #' @examples
 #' print(amewoo)
 #' species(amewoo)
-#' @export
+#' @import BirdFlowR
 "amewoo"
 
