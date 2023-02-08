@@ -26,6 +26,8 @@ devtools::install_github("birdflow-science/BirdFlowModels")
 After loading this package the dataset will be available for use.
 
 ```{r}
+library(BirdFlowModels)
+library(BirdFlowR)
 print(amewoo)
 species(amewoo)
 ```
