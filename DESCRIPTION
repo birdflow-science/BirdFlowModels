@@ -1,6 +1,6 @@
 Package: BirdFlowModels
 Title: Data package with example BirdFlowR models
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
       person("Ethan", "Plunkett",  email = "plunkett@umass.edu", 
                 role = c("aut", "cre"), 
