@@ -1,4 +1,8 @@
-# BirdFlowModels 0.0.0.9001
+## BirdFlowModels 0.0.0.9002
+
+* 2023-02-23 Removed dependency on BirdFlowR to eliminate circular dependencies. Partial fix of : [birdflow-science/BirdFlowR#11](https://github.com/birdflow-science/BirdFlowR/issues/11)
+
+## BirdFlowModels 0.0.0.9001
 
 * 2023-02-20 Fixed dead ends in `amewoo` 
 

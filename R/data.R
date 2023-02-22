@@ -23,9 +23,8 @@
 #' https://doi.org/10.2173/ebirdst.2021
 #'
 #' @usage amewoo
-#' @examples
-#' print(amewoo)
-#' species(amewoo)
-#' @import BirdFlowR
+#' @importFrom Matrix Matrix
+#' @importMethodsFrom Matrix t
+#' @importClassesFrom Matrix Matrix sparseMatrix
 "amewoo"
 

@@ -22,10 +22,6 @@ not be used for research or inference.
 Currently there is just one model "amewoo" (American woodcock) which lacks
 complete metadata. It will likely be replaced soon.
 }
-\examples{
-print(amewoo)
-species(amewoo)
-}
 \references{
 Fink, D., T. Auer, A. Johnston, M. Strimas-Mackey, S. Ligocki, O.
 Robinson, W. Hochachka, L. Jaromczyk, A. Rodewald, C. Wood, I. Davies, A.
