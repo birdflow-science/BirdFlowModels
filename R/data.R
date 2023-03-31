@@ -1,20 +1,18 @@
 # This file documents data
 
 #' @name BirdFlowModels
+#' @rdname BirdFlowModels
 #' @aliases BirdFlowModels
 #' @aliases amewoo
+#' @aliases rewbla
 #' @title Birdflow Example Models
-#' @rdname BirdFlowModels
-#' @description This BirdFlow model is intended for for testing code and
-#'   demonstrating usage in \pkg{BirdFlowR}; it is not fully vetted and should
-#'   not be used for research or inference.
+#' @description These BirdFlow models are intended for for testing code and
+#'   demonstrating usage in \pkg{BirdFlowR}; they are not fully vetted and
+#'   should not be used for research or inference.
 #'
-#'   Currently there is just one model "amewoo" (American woodcock) which lacks
-#'   complete metadata. It will likely be replaced soon.
+#' @format `BirdFlow` model
 #'
-#' @format A BirdFlow model
-#'
-#' @source Trained on eBird Status and Trends 2019 Data.
+#' @source Trained on eBird Status and Trends 2019 and 2021 Data.
 #'
 #' @references Fink, D., T. Auer, A. Johnston, M. Strimas-Mackey, S. Ligocki, O.
 #' Robinson, W. Hochachka, L. Jaromczyk, A. Rodewald, C. Wood, I. Davies, A.
@@ -22,9 +20,31 @@
 #' Cornell Lab of Ornithology, Ithaca, New York.
 #' https://doi.org/10.2173/ebirdst.2021
 #'
-#' @usage amewoo
+#' @usage amewoo  # American Woodcock
+#' @usage rewbla # Red-winged Blackbird
 #' @importFrom Matrix Matrix
 #' @importMethodsFrom Matrix t
 #' @importClassesFrom Matrix Matrix sparseMatrix
 "amewoo"
+
+
+#' @name rewbla_banding_data
+#' @rdname rewbla_banding_data
+#' @aliases rewbla_observations
+#' @aliases rewbla_intervals
+#' @usage rewbla_observations
+#' @usage rewbla_intervals
+#' @title Example banding data for Red-wing Blackbird
+#' @description
+#' This data was extracted from the North American Bird Banding Program Dataset
+#' 1960-2022:
+#'
+#' Celis-Murillo, A., Malorodova, M., and Nakash, E., 2022, North American Bird
+#' Banding Program Dataset 1960-2022 retrieved 2022-07-14: U.S. Geological
+#' Survey data release, https://doi.org/10.5066/P9BSM38F.
+#'
+#' It has been filtered and randomly subset to 3000 birds each of which occurs
+#' twice in observations and once in intervals. The sub-setting was for
+#' demonstration not statistical reasons.
+"rewbla_observations"
 
