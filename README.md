@@ -7,9 +7,16 @@
 This is a "Data" R package that contains a fitted BirdFlow model for use with 
 the BirdFlowR package.  
 
-Currently the package contains a single model `amewoo` for American Woodcock. 
-It is intended for testing and demonstrating code, but has not been vetted 
-for scientific use.
+Currently the package contains a model `amewoo` for American Woodcock. 
+That is used for most testing and vignette code. It has not been vetted  for 
+scientific use.
+
+A second model `rewbla` and a random subset of a banding dataset is used for
+testing log likelihood functions.  It is also not vetted for sceintific use.
+
+Inclusion of these species here should not be taken as indication that we will
+develop fully vetted models for these species, or that they will always be
+available in this package.
 
 BirdFlowR is under active development so we anticipate that, in the short term,
 the data in the package will change frequently.

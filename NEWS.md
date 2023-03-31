@@ -1,3 +1,16 @@
+## BirdFlowModels 0.0.1.9001  (2023-03-30)
+
+* Started using semantic versioning  xxx in (.9xxx) indicates github issue number
+
+* Adding `rewbla` (Red-winged Blackbird).  This is likely temporary.
+
+* Added banding data for rewbla:
+  - `rewbla_observations`
+  - `rewbla_intervals`
+
+* Incremented patch to 1 (0.0.1.x).  BirdFlowR will soon require this version.
+
+
 ## BirdFlowModels 0.0.0.9002
 
 * 2023-02-23 Removed dependency on BirdFlowR to eliminate circular dependencies. Partial fix of : [birdflow-science/BirdFlowR#11](https://github.com/birdflow-science/BirdFlowR/issues/11)

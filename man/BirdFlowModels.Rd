@@ -4,23 +4,23 @@
 \name{BirdFlowModels}
 \alias{BirdFlowModels}
 \alias{amewoo}
+\alias{rewbla}
 \title{Birdflow Example Models}
 \format{
-A BirdFlow model
+\code{BirdFlow} model
 }
 \source{
-Trained on eBird Status and Trends 2019 Data.
+Trained on eBird Status and Trends 2019 and 2021 Data.
 }
 \usage{
-amewoo
+amewoo  # American Woodcock
+
+rewbla # Red-winged Blackbird
 }
 \description{
-This BirdFlow model is intended for for testing code and
-demonstrating usage in \pkg{BirdFlowR}; it is not fully vetted and should
-not be used for research or inference.
-
-Currently there is just one model "amewoo" (American woodcock) which lacks
-complete metadata. It will likely be replaced soon.
+These BirdFlow models are intended for for testing code and
+demonstrating usage in \pkg{BirdFlowR}; they are not fully vetted and
+should not be used for research or inference.
 }
 \references{
 Fink, D., T. Auer, A. Johnston, M. Strimas-Mackey, S. Ligocki, O.
