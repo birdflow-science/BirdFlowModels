@@ -1,14 +1,14 @@
 Package: BirdFlowModels
 Title: Data package with example BirdFlowR models
-Version: 0.0.1.9001
+Version: 0.0.1.9005
 Authors@R: 
       person("Ethan", "Plunkett",  email = "plunkett@umass.edu", 
                 role = c("aut", "cre"), 
                 comment = c(ORCID = "0000-0003-4405-2251"))
-Description: This is a "Data" R package that contains a fitted BirdFlow 
-    model for use with the BirdFlowR package.  The model is  
-    currently a prototype,  intended for testing and demonstrating the code. 
-    It has not been vetted for scientific use. 
+Description: This is a "Data" R package that contains fitted BirdFlow 
+    models and other associated data for use with the BirdFlowR package. 
+    The models and data are currently prototypes, intended for testing and 
+    demonstrating the code. They have not been vetted for scientific use. 
 License: MIT + file LICENSE
 LazyData: true
 LazyDataCompression: gzip
