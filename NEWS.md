@@ -1,4 +1,4 @@
-## BirdFlowModels 0.0.1.9005
+## BirdFlowModels 0.0.2.9001
 2023-04-12
 
 * Switching back to  incremental development version numbers - dropping issue 
@@ -11,9 +11,11 @@
 * Renamed columns in `rewbla$dates` from "week_start", "week_end", and
   "week_midpoint" to  "start", "end", and "midpoint".
 
+* Incremented patch to 1 (0.0.2.x).  BirdFlowR will soon require this version.
 
 
-## BirdFlowModels 0.0.1.9001 (should have been 0.0.1.9004)
+
+## BirdFlowModels 0.0.1.9001
 2023-03-30
 
 * Started using semantic versioning  xxx in (.9xxx) indicates github issue number
