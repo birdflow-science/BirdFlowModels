@@ -29,4 +29,9 @@ Spencer. 2022. eBird Status and Trends, Data Version: 2021; Released: 2022.
 Cornell Lab of Ornithology, Ithaca, New York.
 https://doi.org/10.2173/ebirdst.2021
 }
+\seealso{
+\code{\link[BirdFlowR:load_model]{BirdFlowR::load_model()}} will load a vetted model from a
+BirdFlow model collection.  \code{BirdFlowR::load_collection_index()} will
+return a data frame with information on available models.
+}
 \keyword{datasets}
