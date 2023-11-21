@@ -1,3 +1,13 @@
+## BirdFlowModels 0.0.2.9002
+2023-04-12
+
+* Replaced `amewoo` model with newly fitted model. 
+  * It is now natively a dynamically masked model. 
+  * It was preprocessed with **ebirdst** v. 2.2021.3.
+  * Resolution dropped to 150 km (smaller files, faster tests)
+  * It is now a circular model
+  * It was preprocessed and imported with BirdFlowR version 0.1.0.9083.
+
 ## BirdFlowModels 0.0.2.9001
 2023-04-12
 
