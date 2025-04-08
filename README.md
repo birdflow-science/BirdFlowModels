@@ -12,7 +12,7 @@ That is used for most testing and vignette code. It has not been vetted  for
 scientific use.
 
 A second model `rewbla` and a random subset of a banding dataset is used for
-testing log likelihood functions.  It is also not vetted for sceintific use.
+testing log likelihood functions.  It is also not vetted for scientific use.
 
 Inclusion of these species here should not be taken as indication that we will
 develop fully vetted models for these species, or that they will always be

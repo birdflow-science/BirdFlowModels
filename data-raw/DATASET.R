@@ -43,5 +43,3 @@ str(rewbla$dates)
 
 # resave
 save(rewbla, file = rewbla_rda_file, compress = original_compression)
-
-
