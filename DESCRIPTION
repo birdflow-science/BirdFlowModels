@@ -1,6 +1,6 @@
 Package: BirdFlowModels
 Title: Data package with example BirdFlowR models
-Version: 0.0.2.9002
+Version: 0.0.2.9003
 Authors@R: 
       person("Ethan", "Plunkett",  email = "plunkett@umass.edu", 
                 role = c("aut", "cre"), 
@@ -14,7 +14,7 @@ LazyData: true
 LazyDataCompression: gzip
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
 Imports:

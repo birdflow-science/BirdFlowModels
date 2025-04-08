@@ -49,4 +49,3 @@
 #' twice in observations and once in intervals. The sub-setting was for
 #' demonstration not statistical reasons.
 "rewbla_observations"
-

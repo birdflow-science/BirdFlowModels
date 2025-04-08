@@ -1,3 +1,8 @@
+## BirdFlowModels 0.0.2.9003
+2025-04-08 
+
+* Added `states` with state boundaries as an `sf` object.
+
 ## BirdFlowModels 0.0.2.9002
 2023-04-12
 
